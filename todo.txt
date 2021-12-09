@@ -1,0 +1,6 @@
+TODO:
+1) Read information about fraud detection 
+2) See documentation and run simple examples in Perspectives
+3)  --  ? load the normal dataset to Perspectives
+
+-- till Sunday
