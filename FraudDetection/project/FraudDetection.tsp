@@ -6,6 +6,153 @@
     </preferences>
     <compositeUIs/>
     <domainModelGeneratorOptions/>
+    <module tags="Node, Entity, Officer, Address, Intermediaries, Edges, Intermediary">
+      <schema name="Network">
+        <attributeTypes/>
+        <modelElementTypes>
+          <modelElementType name="Node" objectModelType="node">
+            <attributeTypes>
+              <attributeType identifier="true" name="node_id">
+                <type name="IntegerValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="name">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="country_code">
+                <type name="StringValue"/>
+              </attributeType>
+            </attributeTypes>
+          </modelElementType>
+          <modelElementType name="Entity" objectModelType="node" parents="Node">
+            <attributeTypes>
+              <attributeType identifier="false" name="jurisdiction">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="incorporation_date">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="inactivation_date">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="struck_off_date">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="closed_date">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="ibcRUC">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="status">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="company">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="service_provider">
+                <type name="StringValue"/>
+              </attributeType>
+            </attributeTypes>
+          </modelElementType>
+          <modelElementType name="Officer" objectModelType="node" parents="Node">
+            <attributeTypes/>
+          </modelElementType>
+          <modelElementType name="Address" objectModelType="node" parents="Node">
+            <attributeTypes>
+              <attributeType identifier="false" name="address">
+                <type name="StringValue"/>
+              </attributeType>
+            </attributeTypes>
+          </modelElementType>
+          <modelElementType name="Intermediary" objectModelType="node" parents="Node">
+            <attributeTypes>
+              <attributeType identifier="false" name="status">
+                <type name="StringValue"/>
+              </attributeType>
+            </attributeTypes>
+          </modelElementType>
+          <modelElementType name="Edges" objectModelType="edge" sourceType="Node" targetType="Node">
+            <attributeTypes>
+              <attributeType identifier="true" name="start_id">
+                <type name="ReferenceValue">
+                  <elementTypeName value="Node"/>
+                  <attributeTypeName value="node_id"/>
+                  <bidirectionalMapping value="false"/>
+                </type>
+              </attributeType>
+              <attributeType identifier="true" name="end_id">
+                <type name="ReferenceValue">
+                  <elementTypeName value="Node"/>
+                  <attributeTypeName value="node_id"/>
+                  <bidirectionalMapping value="false"/>
+                </type>
+              </attributeType>
+              <attributeType identifier="false" name="type">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="link">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="start_date">
+                <type name="StringValue"/>
+              </attributeType>
+              <attributeType identifier="false" name="end_date">
+                <type name="StringValue"/>
+              </attributeType>
+            </attributeTypes>
+          </modelElementType>
+        </modelElementTypes>
+      </schema>
+      <drawingTemplates>
+        <drawingTemplate name="Drawing Template 1">
+          <template name="Default Drawing Template" parentTemplate="" type="Drawing">
+            <uiProperties uiType="Basic.Default"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Node Template" parentTemplate="" type="Node">
+            <uiProperties uiType="Basic.Rectangle"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Edge Template" parentTemplate="" type="Edge">
+            <uiProperties uiType="Basic.Straight Undirected"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Connector Template" parentTemplate="" type="Connector">
+            <uiProperties uiType="Basic.Oval"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Node Label Template" parentTemplate="" type="Node Label">
+            <uiProperties uiType="Basic.Text"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Edge Label Template" parentTemplate="" type="Edge Label">
+            <uiProperties uiType="Basic.Text"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Connector Label Template" parentTemplate="" type="Connector Label">
+            <uiProperties uiType="Basic.Text"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Edge Decoration Template" parentTemplate="" type="Edge Decoration">
+            <uiProperties uiType="Basic.Symbol"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Edge Decoration Label Template" parentTemplate="" type="Edge Decoration Label">
+            <uiProperties uiType="Basic.Text"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Swimlane Pool Template" parentTemplate="" type="Swimlane Pool">
+            <uiProperties uiType="Basic.Default"/>
+            <uiAttributes/>
+          </template>
+          <template name="Default Swimlane Template" parentTemplate="" type="Swimlane">
+            <uiProperties uiType="Basic.Default"/>
+            <uiAttributes/>
+          </template>
+        </drawingTemplate>
+      </drawingTemplates>
+      <domains/>
+    </module>
     <defaults>
       <optionDefaults type="graphManager">
         <optionDefault name="routing:all:graphManager:fixedSize" value="false"/>
