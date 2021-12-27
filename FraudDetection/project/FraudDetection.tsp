@@ -4,13 +4,36 @@
       <preference name="colorTheme:webColorTheme" value="Silver"/>
       <preference name="behavior:progressDelay" value="1500"/>
     </preferences>
+    <images>
+      <image id="0" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FsaveAsImage.png"><![CDATA[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]]></image>
+      <image id="1" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Fexport.png"><![CDATA[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]]></image>
+      <image id="2" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FprintSetup.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjIwWZ92UQAAAvhJREFUOE91kl1MklEYx1+7cd50XTfdqDfOu25bZmWb6ezGyj5MCG2GzuGWfbBgmdbCsmZKmK5PFVN0s5Z2wQwzEBQUxZRX/CD8BFMhvl8E/x3eNqcrz7vf9u7s//zO85ydGGrHOin6xonbH3tpXwx1gmzHkC9IIYaKRMKxznW80FQdKd6Z/+c//aE6tOYOYMMbxLrnL2vuIMzLbog+zYNXY/EfLfocu6ckUzLg/+1jMLwQJmxC95NB/0wQwc0IhpfDqOyZx/E7KvmeggzJQCAqMBKBcTGMIVsI6lkGVoeXdBKAw+lDmrh/87+C8vLyuAyJhnF5GYyT08ZXyKlsFyEoJ33o/uGBi4x26v53hsPhxO2SkGIewZMp0cBJBOaVLUwQgYmIDLZNdoxeix/2WQ3G5HkwK25h9G12UF9zWECRwrSGhgYYDAZkPdZinQho+xbMhPGlCMbIKFrSxeiIHKuaB9gYaUNwXg+nqRN62QVnVGAiC3a7HSKR6L801+XBNSVBYKEDc10CeI0t8E18hOl90VZUwITDYUTR6/Vwu927WJtuhouuALMuh2+6AJ6Jm6CbLsOiuAFxGX+LEovFYBiGRaFQwGq1sqIolr4iuK0yMGvv4JvJIx2U4JeaD1tHITz2aXC5XFBCoRBms5lFJpOBpmmoVCqoXp+DZ6kHIZcc3qmzCCyWwtGbj/GnqTBPTrL5lJQUUGVlZVAqlSzV1dUwDvXha5MAln4ys6MeXst5eGeuw668CrqlEBUVFdv5pKQkUAKBAN3d3SxSqRRvKrOwYmyDoaUYYx2pWNDmgW7LRn3pMaSnpaKkpGQ7n5iYCIrP50daW1vZTXKhaH+UBo+uAY5Xp6HmH4CCdxBfnl9Db58GH9o7kZyczGYbGxsRHx8PisfjvczNzTXl5OSAK9Wi+Mwh9NVeAd0lhlp2EYNtlbCtejFnd8MfDIFbp0VCQkK0eIwg3PUiuVJdhCN8guJ7z3C3qha3a1uRLxsiDLIU1A8RgS6ys+gPlbeJ2wJySB4AAAAASUVORK5CYII=]]></image>
+      <image id="3" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FprintPreview.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVDjLjZNJS8NAGIarv0PBuzcV/4MHwYMHL/4CPQsexYvoSW2RioiguJ9cigtFKhpxqVtBXGqtVRO62TbJNFMb+zpfNKJVMQMPCWTeZ+YdMi4ALjGqBPWCxn+oEVRSxsb1IajnnGeLxeKraZr4DfEdbrd7sFxiCxoprOs6GGOf5HI5ZDIZxONxS6IoCjwezzcJjQoS0ATDMFAoFKwnoWkastksEomEJcjn86BFvF6vJfkhoLANCSigqiqSyeSPSh9nUvFNIGp8TqB36m1XSaVS1k5kWf5bUM5XCe2EziOdTjsXmGYRgVAMi9I1JrbuMbPzBF/wAS8F5kywfX6PlWAcNwrDXYpj/1bF2mkS/pOYM8G8JOPiUcNBNA8pwrArCMkcs9vR/wXUf9wfRTjBId3q2Anr8F9qCMY4pgKPzgSzovPFE0Pg+j1MHD1wjPqunFUIhBTsh1Uci9Be1MChWH35TIN3cgl97XU95YJSueBZ4zi8ecaCOIu5XRljm3cYmfQhtDYGabidTXfWttl3oUH8fUyE/rxMNpGD1dLReEcpsj4EX28TswXVJHFwnS26mqu6NwdajY3+FrwBN5GpoomTEloAAAAASUVORK5CYII=]]></image>
+      <image id="4" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Fprint.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJtSURBVDjLjZPfS1NhGMfPXfh3OG/E/yBImNkqrYGCzAthh+WNgXihwQYb2CoYukGwsdRLoYUWQbRAhqzc2Q91IrrVhlhLqznL5Tyb23m3s317z1szBzM68Lk47/N9Pud5XjgcAK7OVfM7/a2piE87HalRoLVHStrp1VKvLVi7fE9wns/WaXi58UgoH4kl/CxIyOZ/cyRKSKRFmF/tw/B4p3jl7utLFwp6baHiySnBxheZUkHkM8HKrgSpUsVGWsaDN/tQG/1PLxT02EIlRbBJBZtfZaztlSF8JEgdFqBMdnh8im7LSqWpYHJysqXHFiS5AkGMfi12UP0zRRm+D6fwxvPI0dWu3Q8QvV7f0iCgzQZKnl4WjqkgcVDDeyrYpqLoXoWtsbxTpLUyrlsFDA4O5vv7+w1MQBu7Z2dnEY1GcXsqjCwVJDM1JCixb1Vs0VXCdIoAXSVLBTcfhhEIBDA+Pg6NRtOtCLbpg0wmA7PZ/F8oWUEQMDAwsKsIiCzLUFhfX4coiv8kFAqhnh8bG6txFosFhBDG4uIiUqkUEzVDqc3Pz5/leZ4HZzKZkEgkGG63G8lkEn6/vylKxuFwnOU7OzvBTUxMwOfzMex2O+LxOJaWlpoSi8VgtVrP8u3t7eDoHvB6vQyXywV6Jwyj0YjR0VE2Zl9fH7q6uqBWq9lZPd/W1gZuZGSk6vF42IHSuPD8JZbfBpvybOEFOjo6WHZubg6tra3gDAbDzNDQ0LZOpwPvCqNYIjg6IfhBOcxJSGdL2PtewKeMiKJUBu8MQ6VSKc1bFFPDv8C7ItXhJ2sYdv/lDmOVodR4Z6R6vucXuxIEyKz+W40AAAAASUVORK5CYII=]]></image>
+      <image id="5" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Fselect.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEXOzs7O1velpaWUxveMvfdzredanNZSjM5Ce8ZiLmzIAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYAggTLA3ULUVXAAAARklEQVR42mNgYDBggAITGMPQAcpwFIUxBBMgjEBBMRgDKgRkiMOk0gpAjEQxqJrENMEGMCONoRDCSGAolIAayQFnNDAgAACNDgnOOVceGQAAAABJRU5ErkJggg==]]></image>
+      <image id="6" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Fpan.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAV1BMVEXW5//e5//W3v/W3vfW1v/W1vfO3v/O1v+czv+cxv+Uzv+Uxv+Mvf+Mvfd7te97re9zte9zre9jpd5jnN5apd5anN5alNZajNZSlNZSjNZSjM5Ke85ChM5TKqxzAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYAggTKjDaH67AAAAAY0lEQVR42m3O0QrAIAgFUO+bD6EvSbD2/985ta0idqHAg2lEI6XQCjMxoCJfDbAfAeztnlCppqiLP/EOQwuQhOhAQK0hGYsxfqli5g7Aghhh2JKL2wbXAX38zE6gftRTOv3kAWKDBCczpUYRAAAAAElFTkSuQmCC]]></image>
+      <image id="7" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FlinkNavigation.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH2AMEFRwkOuIBcgAAAR5JREFUeNrFk61Pw1AUxX+v2UKCqsBMTlaQJcguGAJIyEC2LC8hhG4S+gdUIIddRjDNMgtzuMkipwio6co2QVBXxNpmrLyRZYKj7sv9Oue+ewUK9FvDa2BQbcCV1xaqOKFINoEgf2/tCy5vLpRFlLh9ClPfHzmrYjQ2RIlWb/KVAoRxDEAYRYXvuDLtSGkPSgwyzQUOamAZOpah45p1XLNOEifLM5oXyKYd+P7oR+c/EDx6wxRA9FtzY2YfFV7L0EsZdy8fhX0YvAGwfaqhAQ7A7ueE+/OaWNS8iDhKONl57zy7ewKg2gApbaF1x+0HoCmlvc4/N/PlqgB0x+1XFd04SkrZy/FKnPWm/7BI697CrwwyjU4+7VWHJMDbSMI3Qqpgo3t7A9MAAAAASUVORK5CYII=]]></image>
+      <image id="8" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FmarqueeZoom.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gGCRIgF8kEWLMAAAEuSURBVDjLrZOhdsIwFIa/chDBpY7IyNq6IZnbJI8AbzA5PTfcJHsEJBJk6zq3OiJTlzriMgE9lLOWcbZddW/O/b/7n5sE/hhRu9juQ2jXdV0DMEvj6EfAdh9CjEfG4qKhNDXWeRb3KuoFNOL1ruycMkl1L2QI4H2NVPLYPNEocXRhvSfLDEoKSuM64QMA/PmgLW5yRgJB1Q9o6bHef8ulAOvEFQdcOmiEjYPaeRh1A4YAzjma9XUtsjAW5bLr1/i62QetYrQUyFgcp57Evq6YssMUGx5f8qj3Ib2ts2C9hMPJ8sGjfEEqcpL0AVNmmCJjtjxDolue6+Z5GmKtGauEypZ85jsW7ya6GQCwfroLUil0MrmADG4FzJZ5ZMoPKlsyVsnvf99qrsNqrgP/FV+F4IqJZ3rifAAAAABJRU5ErkJggg==]]></image>
+      <image id="9" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Finteractivezoom.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAUVBMVEUAAAXetYzWrYTO5//O3vfOpXPGnGO93v+9jFK11u+1zu+1e0K1ezmtzu+tczmcveecvd6cYyHvzq2UrcaUlJyMtd6Mrd57pdZ7nM5Ce8be7/+D/bJgAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYBh4UGCym0x74AAAAb0lEQVR42m3P4Q6DIAwEYHQ3tGwoiFtr3/9BhQSjGO/ffUlbMOYhQ473lw7NcfO1bxtOodKz4F/BKSAMvFIFryBhIpUTygiBKwRXhDSsx5mfR14TUv89JLGwrHZ5T817P7azsZFpvEu0XQsmxoev7+gFBnkZE6d9AAAAAElFTkSuQmCC]]></image>
+      <image id="10" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FzoomIn.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAE5QTFRFQnvG786t3u//3rWM1q2Ezuf/zt73zqVzxpxjvd7/vYxStdbvtc7vtXtCtXs5rc7vrXM5nL3nnL3enGMhlK3GlJScjLXejK3ee6XWe5zOR6qz0wAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH2AYJEhoakhz6dwAAAGxJREFUGNNtz90SQCAQBeAsVmxEP7Tv/6LWTCjj3J2vpm2V+skosbboCBKzlZ0ZXyEAYibEI4OR8yt9yGAzAD+AKG8QpgzOgACBi/eY3aJccqFbbgmJE0fdDGv131m32leyTl/xuq1Bef+z+glK3wXC1twNoAAAAABJRU5ErkJggg==]]></image>
+      <image id="11" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FzoomOut.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAE5QTFRFQnvG786t3u//3rWM1q2Ezuf/zt73zqVzxpxjvd7/vYxStdbvtc7vtXtCtXs5rc7vrXM5nL3nnL3enGMhlK3GlJScjLXejK3ee6XWe5zOR6qz0wAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH2AYJEhoce39fQgAAAGxJREFUGNNtz90SgBAQBWCt2hRFfor3f9F2GorGGTfnGzsWY50sFK2rjkBRR90R8RMJIBHpXBkUpCeTz6AzQHqBBiTNxAxWATUJNpRnTo10yfpxL+JjiimIYTbNvpvgwjVi1r84wVtgznW+fgPs8wU5La+dYAAAAABJRU5ErkJggg==]]></image>
+      <image id="12" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FfitInView.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAVFBMVEX////vzq3e7//etYzWrYTO5//O3vfOpXPGnGO93v+9jFK11u+1zu+1e0K1ezmtzu+tczmcveecvd6cYyGcYxiUrcaUlJyMtd6Mrd57pdZ7nM5Ce8ZvGMQvAAAAAXRSTlMAQObYZgAAAHlJREFUeJxsjtEOwiAMRbHTK1qUCWEK9///08awKYsn6cM5D22d+8PFiPHHIUZ4fJ2EzVZUqIASrx6CwBw4lR6imKqqtC3QHETtIQXaEjIt65lnhK1J5XhfS6mttsUfzvPw781PPg9lvu5L9tMYXN75hzcAAAD//wMAH4YFhSHJphoAAAAASUVORK5CYII=]]></image>
+      <image id="13" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Foverview.png"><![CDATA[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]]></image>
+      <image id="14" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Fbundle.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ1IDc5LjE2MzQ5OSwgMjAxOC8wOC8xMy0xNjo0MDoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1ZTY0YjQwZC0zN2ZhLTRjYzQtOWYzYy03ZDY2OGFiNDQ5M2UiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NjM0OEMzRjZDNjI2MTFFOUExOENEMDlGNzM4REIyNzMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NjM0OEMzRjVDNjI2MTFFOUExOENEMDlGNzM4REIyNzMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTkgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5ODQ4Mjk5ZS1mMTM3LTRkYTQtYjU2Zi00YjU5ZTU2NDQxNjkiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpjZDA4OThiZC0xNDZjLTAyNDItOTNjNy03NjcyNGZjZmEwZWUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5rhl8tAAACAklEQVR42pSSz2sTQRTHvzuzG9eQtA1pd9NI1GAbf0AFrUmgXgpWT0JEzV9REDx49h/w3JMXD7l7UFRKC4pRVKRBaiHKekm3MQ1torHr/sjsOCEkiLaheY/vYd7jfWbmvSdxzjGM3Xt2Z3nVWFmQoUACgdwJFovFEdM0L8iyfHRQMeEEmw1TyyQziI1M4vXGmy5AFKfL5fIypfRju90+EKAIbwSbyTNnUzitp/B2430XIG4OCH0Ih8NZTdMOBFDhr8zV4uN3T+dC8kuYO9UuQBj3PI/ouo58Pj+wB+e3Zxbrre0xcAmU0D7g0DatpUpC/XMPIBFCfNu2UalUeo/Cl73og5pFZx3HgWW5uHFx9O6xSKD0N7AHaIseRGq12vVCodCNMA/sXD6X1BNTmuTjRaWFZioYFQDsB3CF4kL3+xkJcGxXHw9wHA8roIyBMZ/9+6UeICgW6rOqqv0pSJxhzSXFJ+s7c8Szsb75E9zX6L4ARVIs3/WRmEwgdyvXT15ueIu7LWeM+b4ojmEqHir9B/hUXZv/Zn/N1OjW6BFLnv/lXimFAqFmJxmPKCWhgVORMkszPBqagKqoMKoGHt58tJA+kV057FgJbxNkT2aRv3QbUVUTjWJsmL2Qf+y1YHw3YDm/Ud2tdjpNhwJcPXXtuet5qG81MBtLYzw8UR8G8EeAAQB/bsGFe7IGAgAAAABJRU5ErkJggg==]]></image>
+      <image id="15" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Fcirculardeep.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAXVBMVEXe3t613q2UzoyUxveMzoSMxnuMjIyEte/Gzu9zvWNzredrvWNrvVprpedjvVpatVJarVJalNZStUpSrUpKpUJKpTlCnDlCe8Y5nDk5lDkxlCkxjCkpjCkhhCEheyGdUY7TAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYBQkUDyQn5QeqAAAAZ0lEQVR42o1PQRKAIAikLGwKD2ZDhxz//8yCcNJbewEWdgEAhfMrtEC/RGxriPGEyjgfLMslS5DpF5yKEOGZVh1eXMxBy5ppQPxaQETYmdIw2xYzpWkzopqKdj8YulPTyNg9w5ThL25+DwRE50WE2AAAAABJRU5ErkJggg==]]></image>
+      <image id="16" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Fhierarchicaldeep.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAATlBMVEXe3t613q2UzoyUxveMzoSMxnuMjIyEte/Gzu9zredrvWNrvVprpedatVJarVJalNZStUpSrUpKpUJKpTlCnDlCe8Y5nDkxjCkpjCkheyEcbzxOAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYBQkUEBIlBZytAAAAXElEQVR42m2O2w6AIAxD5xUVBaeTy///qMgDoWqzNOl56Er0qFMzgdRkEaz2gjzmg0y084mAW3kB4z8dVY/WOnkIsYCmTy4cChiW5N5FfA1baGPB9fWOrMM4+tUNckoC1cF4QhMAAAAASUVORK5CYII=]]></image>
+      <image id="17" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Forthogonaldeep.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAUVBMVEU5lDm13q2UzoyUxveMzoSMjIyEte97xnNzxmNzredrvWNrvVprpedarVJalNZSrUpKrUJKpTlCnDlCe8Y5nDnGzu8xlCkxjCkpjCkhhCEheyER/iiAAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYAgUTFAhBstX+AAAAgUlEQVR42n2N2w7DIAxDvZSwS1ZgGQzE/3/oAmordQ+zFCs6Smwsi/d3YBk25UspgdkPMwHPEMIbmAbwHN7Xf0BifH2A1tsGEhElZl37BMyRyKnx2LZnJXetx4Upa84VqHkH55YzuImMbY2WabUdcnE8a9R8tIh7jIskFoeqHb/6AinQBf5qLGxdAAAAAElFTkSuQmCC]]></image>
+      <image id="18" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2Fsymmetricdeep.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAUVBMVEV5cAW13q2UzoyUxveMzoSMxnuMjIyEte9zxmNzvWNzredrvWNrvVprpedatVJarVJalNZSrUpKpUJKpTlCnDlCe8Y5nDkxjCkpjCkheyHGzu+5Yn+7AAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYAgUTEguO4SPCAAAAYklEQVR42n2O4RZAIAyFF1poKFLx/g9KzhHLOe6v3W/b3QDeinFjHpyNHATPJ/AuatUDjHbJHbUbRFv5DAazAswUimV8fEeUMlwGJGTKeAGpz4wpfM5fajXxb0k0BUj7fzoA/6ADMUh5+dsAAAAASUVORK5CYII=]]></image>
+      <image id="19" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FglobalLayout.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEWMxnu9QgC13q2UzoyUxveMzoTGzu+MjIyEte9zxmNzvWNzredrvWNrvVprpedjvVpatVJarVJalNZStUpSrUpKpUJKpTlCnDlCe8Y5nDk5lDkxlCkxjCkpjCkhhCEheyHc87YcAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYAgUTFSkUwPThAAAAX0lEQVR42oWPjQqAMAiEb9VyUUKM9TNo7P3fMirQVkQHiveJcAIwEJ2juQNzVAEu07geGMMsC9d6olBHAd6vwMSb3pK0D9AxAyknAVxZoiVkBXYAYsxFFjXP6O/n/rQDkvACtYaeSdAAAAAASUVORK5CYII=]]></image>
+      <image id="20" type="png" url="jar%3Afile%3A%2FC%3A%2FApps%2FTom%2520Sawyer%2520Software%2FTom%2520Sawyer%2520Perspectives%2F10.0%2FJava%2Fmodules%2Fgraph%2520and%2520data%2520visualization%2Fbin%2Fdesigner%2Ftsprojectdesigner100dev.jar%21%2FBOOT-INF%2Fclasses%21%2Fcom%2Ftomsawyer%2Fview%2Faction%2Fimages%2FincrementalLayout.png"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAYFBMVEWMzoS9QgC13q2UzoyUxvfGzu+MxnuMjIyEte9zxmNzvWNzredrvWNrvVprpedjvVpatVJarVJalNZStUpSrUpKpUJKpTlCnDlCe8Y5nDk5lDkxlCkxjCkpjCkhhCEheyHckhh3AAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfYAgUTFQPPez03AAAAZklEQVR42pWP2wqAIBBEx24b1UaIZYHi//9lrUZk0UPzsLjH2Rtwl8JTL6ISqdo+t7S1JprMEoE6XKNeAVNukqYyOv5mdvEdoQAJYpcuHTNOmtpy0QDeh2syNwORNSFfztnwecBP7XXHArZ10dZWAAAAAElFTkSuQmCC]]></image>
+    </images>
     <compositeUIs/>
     <domainModelGeneratorOptions/>
-    <module tags="Node, Entity, Officer, Address, Intermediaries, Edges, Intermediary">
+    <module tags="Nodes, Edges">
       <schema name="Network">
         <attributeTypes/>
         <modelElementTypes>
-          <modelElementType name="Node" objectModelType="node">
+          <modelElementType name="Nodes" objectModelType="node">
             <attributeTypes>
               <attributeType identifier="true" name="node_id">
                 <type name="IntegerValue"/>
@@ -21,88 +44,66 @@
               <attributeType identifier="false" name="country_code">
                 <type name="StringValue"/>
               </attributeType>
-            </attributeTypes>
-          </modelElementType>
-          <modelElementType name="Entity" objectModelType="node" parents="Node">
-            <attributeTypes>
-              <attributeType identifier="false" name="jurisdiction">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="incorporation_date">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="inactivation_date">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="struck_off_date">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="closed_date">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="ibcRUC">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="status">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="company">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="service_provider">
-                <type name="StringValue"/>
-              </attributeType>
-            </attributeTypes>
-          </modelElementType>
-          <modelElementType name="Officer" objectModelType="node" parents="Node">
-            <attributeTypes/>
-          </modelElementType>
-          <modelElementType name="Address" objectModelType="node" parents="Node">
-            <attributeTypes>
-              <attributeType identifier="false" name="address">
-                <type name="StringValue"/>
-              </attributeType>
-            </attributeTypes>
-          </modelElementType>
-          <modelElementType name="Intermediary" objectModelType="node" parents="Node">
-            <attributeTypes>
-              <attributeType identifier="false" name="status">
-                <type name="StringValue"/>
-              </attributeType>
-            </attributeTypes>
-          </modelElementType>
-          <modelElementType name="Edges" objectModelType="edge" sourceType="Node" targetType="Node">
-            <attributeTypes>
-              <attributeType identifier="true" name="start_id">
-                <type name="ReferenceValue">
-                  <elementTypeName value="Node"/>
-                  <attributeTypeName value="node_id"/>
-                  <bidirectionalMapping value="false"/>
-                </type>
-              </attributeType>
-              <attributeType identifier="true" name="end_id">
-                <type name="ReferenceValue">
-                  <elementTypeName value="Node"/>
-                  <attributeTypeName value="node_id"/>
-                  <bidirectionalMapping value="false"/>
-                </type>
-              </attributeType>
               <attributeType identifier="false" name="type">
                 <type name="StringValue"/>
+              </attributeType>
+            </attributeTypes>
+          </modelElementType>
+          <modelElementType name="Edges" objectModelType="edge" sourceType="Nodes" targetType="Nodes">
+            <attributeTypes>
+              <attributeType identifier="true" name="edge_id">
+                <type name="IntegerValue"/>
               </attributeType>
               <attributeType identifier="false" name="link">
                 <type name="StringValue"/>
               </attributeType>
-              <attributeType identifier="false" name="start_date">
-                <type name="StringValue"/>
-              </attributeType>
-              <attributeType identifier="false" name="end_date">
+              <attributeType identifier="false" name="type">
                 <type name="StringValue"/>
               </attributeType>
             </attributeTypes>
           </modelElementType>
         </modelElementTypes>
       </schema>
+      <integrators>
+        <excelIntegrator name="excelData" updateMode="updateAll">
+          <connection fileName="../dataset/4000edges_sampling.xlsx"/>
+          <dataBinding>
+            <attributedObjectBinding attributedObjectTypeName="Nodes" isModelAttribute="false" isReadOnly="false">
+              <excelSheet excelRegion="A2:E+" sheetName="nodes"/>
+              <attributeBinding attributeName="node_id" attributedObjectTypeName="Nodes" identifier="true">
+                <excelLocation location="B"/>
+              </attributeBinding>
+              <attributeBinding attributeName="name" attributedObjectTypeName="Nodes" identifier="false">
+                <excelLocation location="C"/>
+              </attributeBinding>
+              <attributeBinding attributeName="country_code" attributedObjectTypeName="Nodes" identifier="false">
+                <excelLocation location="D"/>
+              </attributeBinding>
+              <attributeBinding attributeName="type" attributedObjectTypeName="Nodes" identifier="false">
+                <excelLocation location="A"/>
+              </attributeBinding>
+            </attributedObjectBinding>
+            <attributedObjectBinding attributedObjectTypeName="Edges" isModelAttribute="false" isReadOnly="false">
+              <excelSheet excelRegion="A2:I+" sheetName="edges"/>
+              <attributeBinding attributeName="c.t.m.s.SourceId" attributedObjectTypeName="Edges" identifier="false">
+                <excelLocation location="B"/>
+              </attributeBinding>
+              <attributeBinding attributeName="c.t.m.s.TargetId" attributedObjectTypeName="Edges" identifier="false">
+                <excelLocation location="D"/>
+              </attributeBinding>
+              <attributeBinding attributeName="edge_id" attributedObjectTypeName="Edges" identifier="true">
+                <excelLocation location="A"/>
+              </attributeBinding>
+              <attributeBinding attributeName="link" attributedObjectTypeName="Edges" identifier="false">
+                <excelLocation location="E"/>
+              </attributeBinding>
+              <attributeBinding attributeName="type" attributedObjectTypeName="Edges" identifier="false">
+                <excelLocation location="C"/>
+              </attributeBinding>
+            </attributedObjectBinding>
+          </dataBinding>
+        </excelIntegrator>
+      </integrators>
       <drawingTemplates>
         <drawingTemplate name="Drawing Template 1">
           <template name="Default Drawing Template" parentTemplate="" type="Drawing">
@@ -151,6 +152,222 @@
           </template>
         </drawingTemplate>
       </drawingTemplates>
+      <views>
+        <drawingView name="TestGraphView">
+          <mapping>
+            <domainRules>
+              <rule domainName="Nodes">
+                <actions>
+                  <addNodeAction description="Add Node" id="node.$id()" replaceTags="true" tags="$typeNameList()" templateName="Default Node Template"/>
+                </actions>
+              </rule>
+              <rule domainName="Edges">
+                <actions>
+                  <addEdgeAction description="Add Edge" id="edge.$id()" replaceTags="true" source="$source(node.$id())" tags="$typeNameList()" target="$target(node.$id())" templateName="Default Edge Template"/>
+                </actions>
+              </rule>
+            </domainRules>
+          </mapping>
+          <behavior>
+            <toolbar embedded="true" floatable="false" location="North" minimumHeight="21" minimumWidth="0" name="Default">
+              <actionItem action="File.Save As Image" resource="0" tags="GLOBAL_TAG" text="Save As Image">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="File.Export" resource="1" tags="GLOBAL_TAG" text="Export">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <separatorItem tags="GLOBAL_TAG"/>
+              <actionItem action="File.Print Setup" resource="2" tags="GLOBAL_TAG" text="Print Setup">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="File.Print Preview" resource="3" tags="GLOBAL_TAG" text="Print Preview">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="File.Print" resource="4" tags="GLOBAL_TAG" text="Print">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <separatorItem tags="GLOBAL_TAG"/>
+              <actionItem action="Tool.Activate Tool" resource="5" tags="GLOBAL_TAG" text="Select">
+                <disabledIcon/>
+                <customization>
+                  <tool name="Select Tool"/>
+                </customization>
+              </actionItem>
+              <separatorItem tags="GLOBAL_TAG"/>
+              <actionItem action="Tool.Activate Tool" resource="6" tags="GLOBAL_TAG" text="Pan">
+                <disabledIcon/>
+                <customization>
+                  <tool name="Pan Tool"/>
+                </customization>
+              </actionItem>
+              <actionItem action="Tool.Activate Tool" resource="7" tags="GLOBAL_TAG" text="Navigate Links">
+                <disabledIcon/>
+                <customization>
+                  <tool name="Link Navigation Tool"/>
+                </customization>
+              </actionItem>
+              <separatorItem tags="GLOBAL_TAG"/>
+              <actionItem action="Tool.Activate Tool" resource="8" tags="GLOBAL_TAG" text="Marquee Zoom">
+                <disabledIcon/>
+                <customization>
+                  <tool name="Marquee Zoom Tool"/>
+                </customization>
+              </actionItem>
+              <actionItem action="Tool.Activate Tool" resource="9" tags="GLOBAL_TAG" text="Interactive Zoom">
+                <disabledIcon/>
+                <customization>
+                  <tool name="Interactive Zoom Tool"/>
+                </customization>
+              </actionItem>
+              <actionItem action="View.Zoom In" resource="10" tags="GLOBAL_TAG" text="Zoom In">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="View.Zoom Out" resource="11" tags="GLOBAL_TAG" text="Zoom Out">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="View.Zoom Fit" resource="12" tags="GLOBAL_TAG" text="Zoom Fit">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <separatorItem tags="GLOBAL_TAG"/>
+              <actionItem action="View.Overview" resource="13" tags="GLOBAL_TAG" text="Overview">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <separatorItem tags="GLOBAL_TAG"/>
+              <actionItem action="Layout.Bundle Layout" resource="14" tags="GLOBAL_TAG" text="Bundle Layout">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="Layout.Circular Layout" resource="15" tags="GLOBAL_TAG" text="Circular Layout">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="Layout.Hierarchical Layout" resource="16" tags="GLOBAL_TAG" text="Hierarchical Layout">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="Layout.Orthogonal Layout" resource="17" tags="GLOBAL_TAG" text="Orthogonal Layout">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="Layout.Symmetric Layout" resource="18" tags="GLOBAL_TAG" text="Symmetric Layout">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <separatorItem tags="GLOBAL_TAG"/>
+              <actionItem action="Layout.Global Layout" resource="19" tags="GLOBAL_TAG" text="Global Layout">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+              <actionItem action="Layout.Incremental Layout" resource="20" tags="GLOBAL_TAG" text="Incremental Layout">
+                <disabledIcon/>
+                <customization/>
+              </actionItem>
+            </toolbar>
+            <contextMenu/>
+            <toolConfiguration>
+              <tool name="Select Tool" type="SelectTool">
+                <customization>
+                  <moveChildTool name="Move Tool"/>
+                  <resizeChildTool name="Resize Tool"/>
+                  <deleteChildTool name="Delete Tool"/>
+                  <editTextChildTool name="Edit Text Tool"/>
+                </customization>
+              </tool>
+              <tool name="Move Tool" type="MoveTool"/>
+              <tool name="Resize Tool" type="ResizeTool"/>
+              <tool name="Delete Tool" type="DeleteTool">
+                <customization>
+                  <toolRules/>
+                </customization>
+              </tool>
+              <tool name="Edit Text Tool" type="EditTextTool"/>
+              <tool name="Reconnect Tool" type="ReconnectTool">
+                <customization>
+                  <toolRules/>
+                </customization>
+              </tool>
+              <tool name="Transfer Tool" type="TransferTool">
+                <customization>
+                  <toolRules/>
+                </customization>
+              </tool>
+              <tool name="Pan Tool" type="PanTool"/>
+              <tool name="Marquee Zoom Tool" type="MarqueeZoomTool"/>
+              <tool name="Interactive Zoom Tool" type="InteractiveZoomTool"/>
+              <tool name="Link Navigation Tool" type="LinkNavigationTool"/>
+            </toolConfiguration>
+          </behavior>
+          <preferences>
+            <preference name="animation:focusToHighlightedAnimation" value="true"/>
+            <preference name="animation:focusToHighlightedAnimationDuration" value="Medium"/>
+            <preference name="animation:layoutAnimationDuration" value="Low"/>
+            <preference name="animation:layoutFadeAnimation" value="false"/>
+            <preference name="animation:layoutInterpolationAnimation" value="true"/>
+            <preference name="animation:navigate" value="true"/>
+            <preference name="animation:navigateDuration" value="Medium"/>
+            <preference name="animation:operationsAnimationDuration" value="Medium"/>
+            <preference name="animation:operationsInterpolationAnimation" value="true"/>
+            <preference name="animation:viewportChangeAnimation" value="true"/>
+            <preference name="animation:viewportChangeAnimationDuration" value="Medium"/>
+            <preference name="closable" value="false"/>
+            <preference name="editingCommand:applyGeometricAdjustment" value="true"/>
+            <preference name="editingCommand:compressMetaEdges" value="true"/>
+            <preference name="editingCommand:enableMetaEdges" value="true"/>
+            <preference name="editingCommand:ignoreEdgeDirection" value="false"/>
+            <preference name="editingCommand:zoomInOnCollapse" value="true"/>
+            <preference name="focusToHighlightedObjects" value="true"/>
+            <preference name="highlightedTags" value="Nodes, Edges"/>
+            <preference name="initiallySelectedTool" value="Select Tool"/>
+            <preference name="interactive:containerInteraction" value="Frame Only"/>
+            <preference name="interactive:hittestingSensitivity" value="High"/>
+            <preference name="interactive:hoverInitialDelay" value="250"/>
+            <preference name="interactive:layoutCancelDelay" value="1500"/>
+            <preference name="interactive:layoutDrawingFitting" value="Fit To Canvas"/>
+            <preference name="interactive:mouseWheelBehavior" value="Zoom"/>
+            <preference name="interactive:showLayoutProgress" value="true"/>
+            <preference name="interactive:tooltipDuration" value="8000"/>
+            <preference name="interactive:tooltipDynamicRetrieval" value="true"/>
+            <preference name="interactive:tooltipInitialDelay" value="800"/>
+            <preference name="label" value=""/>
+            <preference name="layoutOnIntegratorUpdates" value="Global"/>
+            <preference name="layoutOnModelChanges" value="None"/>
+            <preference name="mapUIZoomLevelThresholds" value=""/>
+            <preference name="maximumZoomPercent" value="5000.0"/>
+            <preference name="minimumZoomPercent" value="0.01"/>
+            <preference name="navigatePlacement" value="Top Right"/>
+            <preference name="overviewClosable" value="true"/>
+            <preference name="overviewEmbedded" value="true"/>
+            <preference name="overviewHeight" value="165"/>
+            <preference name="overviewPlacement" value="Bottom Right"/>
+            <preference name="overviewShowOnStart" value="false"/>
+            <preference name="overviewTightFitDrawing" value="true"/>
+            <preference name="overviewWidth" value="185"/>
+            <preference name="rendering:blinkInterval" value="0.0"/>
+            <preference name="rendering:drawNodesBeforeEdges" value="true"/>
+            <preference name="rendering:highlightColor" value="0 255 255 64"/>
+            <preference name="rendering:hoverColor" value="170 170 255 64"/>
+            <preference name="rendering:refreshInterval" value="0.0"/>
+            <preference name="rendering:selectColor" value="40 94 160 64"/>
+            <preference name="rendering:simplifiedLowResolutionDrawing" value="true"/>
+            <preference name="showScrollControl" value="true"/>
+            <preference name="showZoomControl" value="true"/>
+            <preference name="uiZoomLevelThresholds" value=""/>
+            <preference name="viewingTool:hoverEffects" value="true"/>
+            <preference name="viewingTool:interactiveZoomReversedDirection" value="false"/>
+            <preference name="webGraphics" value="HTML5 Canvas"/>
+          </preferences>
+          <drawingTemplate name="Drawing Template 1"/>
+        </drawingView>
+      </views>
       <domains/>
     </module>
     <defaults>
