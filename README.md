@@ -1,4 +1,5 @@
-# offshore-leaks-fraud-detection
+# Panama Papers Analysis
+This repository contains some basic algorithms and analysis process for Panama Papers.
 
 # Report
 Overleaf: https://www.overleaf.com/2346793244dpxmcjqxnsyg
