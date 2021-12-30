@@ -1,31 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package datasetParser;
 
 import csv.CSV;
 import csv.CSVFactory;
 import csv.CSVLine;
-import csv.CSVPrinter;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
+
 import utils.CommonUtils;
 
 /**
- *
- * @author Manos Chatzakis
+ * This class contains all methods to apply for dataset preprosessing (sampling, simple, reconstruction) and some other 
+ * utility functions.
+ * 
+ * @author Manos Chatzakis (chatzakis@ics.forth.gr)
+ * @author Eva Chamilaki (evacham7@gmail.com)
  */
 public class DatasetCreator {
 
-    static int ADRESS_INDEX = 0;
+    static int ADDRESS_INDEX = 0;
     static int ENTITY_INDEX = 1;
     static int OFFICER_INDEX = 2;
     static int INTERMEDIARY_INDEX = 3;
@@ -62,6 +59,60 @@ public class DatasetCreator {
         "data/csv_panama_papers.2018-02-14/panama_papers.nodes.intermediary_simplified.csv"
     };
 
+    public static void createDatasetSimple() throws FileNotFoundException, IOException, CloneNotSupportedException {
+        /*Step 1: Get some edges from the file and save the IDs in a set*/
+        CSV edges = new CSV(startingCSVEdges, ",", true);
+        edges.parse();
+
+        int startRow = 0;
+        int count = 4000;
+
+        CSV selectedEdges = CSVFactory.selectCSVRowFactory(edges, startRow, startRow + count);
+
+        ArrayList<CSVLine> lines = selectedEdges.getParsedLines();
+        Set<Integer> nodeIDs = new HashSet<>();
+        int index = 0;
+        String edgesOutput = "ID, " + selectedEdges.getHeader().toString();
+        for (CSVLine line : lines) {
+            int fromID = Integer.parseInt(line.getColumns(0, 0).get(0));
+            int toID = Integer.parseInt(line.getColumns(2, 2).get(0));
+
+            nodeIDs.add(toID);
+            nodeIDs.add(fromID);
+
+            index++;
+
+            edgesOutput += index + "," + line.toString();
+        }
+
+        CommonUtils.writeStringToFile(edgesOutput, startingCSVEdges.replace(".csv", "__selected.csv"));
+        System.out.println("================ \n Phase 1 Completed.\n================");
+
+        /*Step 2: Use the set to find the nodes from the file*/
+        edgesOutput = "Type, ID, Name/Address, CountryCode\n";
+        for (int i : CVSs2use) {
+            String currType = typeNames[i];
+            CSV currCSV = new CSV(startingCSVs[i], ",", true);
+            currCSV.parse();
+            int[] cols = startingCSVsInterestedCols[i];
+
+            currCSV.selectColumns(cols);
+            ArrayList<CSVLine> csvLines = currCSV.getParsedLines();
+
+            for (CSVLine csvLine : csvLines) {
+                int lineID = Integer.parseInt(csvLine.getColumns(0, 0).get(0).replace("\"", ""));
+
+                if (nodeIDs.contains(lineID)) {
+                    edgesOutput += currType + "," + csvLine.toString();
+                }
+
+            }
+        }
+
+        CommonUtils.writeStringToFile(edgesOutput, "data/csv_panama_papers.2018-02-14/nodes.csv");
+        System.out.println("================ \n Phase 2 Completed.\n================");
+    }
+
     public static void createDatasetSampling() throws FileNotFoundException, IOException, CloneNotSupportedException {
         /*Step 1: Get some edges from the file and save the IDs in a set*/
         CSV edges = new CSV(startingCSVEdges, ",", true);
@@ -69,9 +120,11 @@ public class DatasetCreator {
 
         int min = 0;
         int max = edges.getParsedLines().size();
-        int[] randcols = CommonUtils.generateRandomNums(4000, min, max);
-        //CSV selectedEdges = CSVFactory.selectCSVRowFactory(edges, 0, 4000);
-        CSV selectedEdges = CSVFactory.selectCSVRowFactory(edges, randcols);
+        int count = 4000;
+
+        int[] randRows = CommonUtils.generateRandomNums(count, min, max);
+
+        CSV selectedEdges = CSVFactory.selectCSVRowFactory(edges, randRows);
 
         ArrayList<CSVLine> lines = selectedEdges.getParsedLines();
         Set<Integer> nodeIDs = new HashSet<>();
@@ -126,51 +179,70 @@ public class DatasetCreator {
         String output = edges.getHeader().toString();
 
         //int startingNode = 11000007;
-        // int startingNode = 10071302;
-        int count = 0;
-        for (int startingNode : edges.getColumnAsInt(0).subList(400000, 500000)) {
-            System.out.println("========================");
-            count++;
-            if (count == 10000) {
-                break;
-            }
-            Set<Integer> nodeIDs = new HashSet<>();
+        int startingNode = 10071302;
 
-            ArrayList<ArrayList<Integer>> levelNodes = new ArrayList<>();
-            ArrayList<Integer> firstLevelNode = new ArrayList<>();
-            ArrayList<Integer> currentLevelNodes = null;
+        Set<Integer> nodeIDs = new HashSet<>();
 
-            firstLevelNode.add(startingNode);
-            levelNodes.add(firstLevelNode);
+        ArrayList<ArrayList<Integer>> levelNodes = new ArrayList<>();
+        ArrayList<Integer> firstLevelNode = new ArrayList<>();
+        ArrayList<Integer> currentLevelNodes = null;
 
-            int levelBFS = 0;
-            while (levelBFS < depth && !(currentLevelNodes = levelNodes.get(levelBFS)).isEmpty()) {
-                ArrayList<Integer> nextLevelNodes = new ArrayList<>();
-                for (Integer currentNode : currentLevelNodes) {
-                    String toPrint = "Current Node: " + currentNode + ": [";
-                    nodeIDs.add(currentNode);
-                    CSV groupNeighboursCSV = CSVFactory.selectCSVRowsByValueFactory(edges, 0, currentNode + "");
-                    ArrayList<CSVLine> lines = groupNeighboursCSV.getParsedLines();
-                    for (CSVLine line : lines) {
-                        int toID = Integer.parseInt(line.getColumns(2, 2).get(0));
-                        toPrint += toID + " ";
-                        if (!nodeIDs.contains(toID)) {
-                            nextLevelNodes.add(toID);
-                        }
-                        //should write to file
+        firstLevelNode.add(startingNode);
+        levelNodes.add(firstLevelNode);
 
-                        output += line.toString();
+        int levelBFS = 0;
+        while (levelBFS < depth && !(currentLevelNodes = levelNodes.get(levelBFS)).isEmpty()) {
+            ArrayList<Integer> nextLevelNodes = new ArrayList<>();
+            for (Integer currentNode : currentLevelNodes) {
+                String toPrint = "Current Node: " + currentNode + ": [";
+                nodeIDs.add(currentNode);
+                CSV groupNeighboursCSV = CSVFactory.selectCSVRowsByValueFactory(edges, 0, currentNode + "");
+                ArrayList<CSVLine> lines = groupNeighboursCSV.getParsedLines();
+                for (CSVLine line : lines) {
+                    int toID = Integer.parseInt(line.getColumns(2, 2).get(0));
+                    toPrint += toID + " ";
+                    if (!nodeIDs.contains(toID)) {
+                        nextLevelNodes.add(toID);
                     }
-                    System.out.println(toPrint + "]");
+                    //should write to file
 
+                    output += line.toString();
                 }
+                //System.out.println(toPrint + "]");
 
-                levelNodes.add(nextLevelNodes);
-                levelBFS++;
             }
+
+            levelNodes.add(nextLevelNodes);
+            levelBFS++;
+
         }
 
         CommonUtils.writeStringToFile(output, startingCSVEdges.replace(".csv", "__selectedPATHS.csv"));
+        
+         /*Step 2: Use the set to find the nodes from the file*/
+        String nodesOutput = "Type, ID, Name/Address, CountryCode\n";
+        for (int i : CVSs2use) {
+            String currType = typeNames[i];
+            CSV currCSV = new CSV(startingCSVs[i], ",", true);
+            currCSV.parse();
+            int[] cols = startingCSVsInterestedCols[i];
+
+            currCSV.selectColumns(cols);
+            ArrayList<CSVLine> csvLines = currCSV.getParsedLines();
+
+            for (CSVLine csvLine : csvLines) {
+                int lineID = Integer.parseInt(csvLine.getColumns(0, 0).get(0).replace("\"", ""));
+
+                if (nodeIDs.contains(lineID)) {
+                    nodesOutput += currType + "," + csvLine.toString();
+                }
+
+            }
+        }
+
+        CommonUtils.writeStringToFile(nodesOutput, "data/csv_panama_papers.2018-02-14/nodes.csv");
+        System.out.println("================ \n Phase 2 Completed.\n================");
+        
     }
 
     public static void mergeNodes() throws FileNotFoundException, IOException, CloneNotSupportedException {
@@ -204,7 +276,7 @@ public class DatasetCreator {
     }
 
     public static void main(String[] args) throws IOException, FileNotFoundException, CloneNotSupportedException {
-        createDatasetSampling();
+        //createDatasetSampling();
         //createDatasetPaths();
         //shuffleCSV();
         //mergeNodes();
