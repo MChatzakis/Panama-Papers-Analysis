@@ -1,8 +1,7 @@
 # Panama Papers Analysis
-This repository contains some basic algorithms and analysis process for Panama Papers.
+This repository contains the analysis of a Panama Papers dataset, using base dataset analysis, graph analytics and embeddings.
 
-# Report
-Overleaf: https://www.overleaf.com/2346793244dpxmcjqxnsyg
+This work was done for the project of the undergraduate course cs484 - Complex Network Dynamics.
 
-# Presentation
-Google Doc: https://docs.google.com/presentation/d/1vqg7iraogkh2PgWp7Ln3JHUxPbRBpw_pEKk_VwV0jUI/edit?usp=sharing 
+Manos Chatzakis (chatzakis@ics.forth.gr)
+Eva Chamilaki (evacham7@gmail.com)
