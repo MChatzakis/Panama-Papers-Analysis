@@ -23,6 +23,7 @@
 hs_err_pid*
 
 raw-datasets/
-FraudDetection/data/
+DatasetAnalysis/data/
 
-/FraudDetection/target/
+/DatasetAnalysis/target/
+/DatasetAnalysis/target/
