@@ -28,7 +28,7 @@ NODE_ADDRESS_INDEX = 2  # careful
 FROM_NODE_ID_INDEX = 0
 TO_NODE_ID_INDEX = 2
 
-DATASET_PATH = "../data/csv_panama_papers.2018-02-14/"
+DATASET_PATH = "../Data/csv_panama_papers.2018-02-14/"
 
 GRAPH = nx.DiGraph()
 NODE_ID_MAPPINGS = {}
