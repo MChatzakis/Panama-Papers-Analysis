@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package embeddings;
 
 import csv.CSV;
@@ -15,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ * This class contains method to create a triple-like corpus from the Fraud Detection graph.
  * @author Manos Chatzakis (chatzakis@ics.forth.gr)
  * @author Eva Chamilaki (evacham7@ics.forth.gr)
  */
@@ -50,7 +45,7 @@ public class VocabCreator {
         {0, 1, 2},
         {0, 1, 2}
     };
-
+    
     public static void createVocab() throws FileNotFoundException, IOException {
         Map<Integer, String> IDs2Names = new HashMap<>();
 

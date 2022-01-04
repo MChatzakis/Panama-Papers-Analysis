@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package utils;
 
 import java.io.BufferedOutputStream;
@@ -12,8 +7,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- *
- * @author manos
+ * This class contains basic utility functions
+ * @author Manos Chatzakis (chatzakis@ics.forth.gr)
+ * @author Eva Chamilaki (evacham7@gmail.com)
  */
 public class CommonUtils {
      public static int[] generateRandomNums(int count, int min, int max) {

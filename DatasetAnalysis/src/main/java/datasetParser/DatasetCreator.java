@@ -14,7 +14,7 @@ import java.util.Set;
 import utils.CommonUtils;
 
 /**
- * This class contains all methods to apply for dataset preprosessing (sampling, simple, reconstruction) and some other 
+ * This class contains all methods to apply for dataset pre-prosessing (sampling, simple, reconstruction) and some other 
  * utility functions.
  * 
  * @author Manos Chatzakis (chatzakis@ics.forth.gr)
@@ -29,13 +29,13 @@ public class DatasetCreator {
 
     static int[] CVSs2use = {0, 1, 2, 3};
 
-    static String startingCSVEdges = "data/csv_panama_papers.2018-02-14/panama_papers.edges.csv";
+    static String startingCSVEdges = "../Data/csv_panama_papers.2018-02-14/panama_papers.edges.csv";
 
     static String[] startingCSVs = {
-        "data/csv_panama_papers.2018-02-14/panama_papers.nodes.address.csv",
-        "data/csv_panama_papers.2018-02-14/panama_papers.nodes.entity.csv",
-        "data/csv_panama_papers.2018-02-14/panama_papers.nodes.officer.csv",
-        "data/csv_panama_papers.2018-02-14/panama_papers.nodes.intermediary.csv"
+        "../Data/csv_panama_papers.2018-02-14/panama_papers.nodes.address.csv",
+        "../Data/csv_panama_papers.2018-02-14/panama_papers.nodes.entity.csv",
+        "../Data/csv_panama_papers.2018-02-14/panama_papers.nodes.officer.csv",
+        "../Data/csv_panama_papers.2018-02-14/panama_papers.nodes.intermediary.csv"
     };
 
     static String[] typeNames = {
@@ -53,10 +53,10 @@ public class DatasetCreator {
     };
 
     String[] outputCSVs = {
-        "data/csv_panama_papers.2018-02-14/panama_papers.nodes.address_simplified.csv",
-        "data/csv_panama_papers.2018-02-14/panama_papers.nodes.entity_simplified.csv",
-        "data/csv_panama_papers.2018-02-14/panama_papers.nodes.officer_simplified.csv",
-        "data/csv_panama_papers.2018-02-14/panama_papers.nodes.intermediary_simplified.csv"
+        "../Data/csv_panama_papers.2018-02-14/panama_papers.nodes.address_simplified.csv",
+        "../Data/csv_panama_papers.2018-02-14/panama_papers.nodes.entity_simplified.csv",
+        "../Data/csv_panama_papers.2018-02-14/panama_papers.nodes.officer_simplified.csv",
+        "../Data/csv_panama_papers.2018-02-14/panama_papers.nodes.intermediary_simplified.csv"
     };
 
     public static void createDatasetSimple() throws FileNotFoundException, IOException, CloneNotSupportedException {
@@ -109,7 +109,7 @@ public class DatasetCreator {
             }
         }
 
-        CommonUtils.writeStringToFile(edgesOutput, "data/csv_panama_papers.2018-02-14/nodes.csv");
+        CommonUtils.writeStringToFile(edgesOutput, "../Data/csv_panama_papers.2018-02-14/nodes.csv");
         System.out.println("================ \n Phase 2 Completed.\n================");
     }
 
@@ -166,7 +166,7 @@ public class DatasetCreator {
             }
         }
 
-        CommonUtils.writeStringToFile(edgesOutput, "data/csv_panama_papers.2018-02-14/nodes.csv");
+        CommonUtils.writeStringToFile(edgesOutput, "../Data/csv_panama_papers.2018-02-14/nodes.csv");
         System.out.println("================ \n Phase 2 Completed.\n================");
 
     }
@@ -218,6 +218,7 @@ public class DatasetCreator {
         }
 
         CommonUtils.writeStringToFile(output, startingCSVEdges.replace(".csv", "__selectedPATHS.csv"));
+        System.out.println("================ \n Phase 1 Completed.\n================");
         
          /*Step 2: Use the set to find the nodes from the file*/
         String nodesOutput = "Type, ID, Name/Address, CountryCode\n";
@@ -240,7 +241,7 @@ public class DatasetCreator {
             }
         }
 
-        CommonUtils.writeStringToFile(nodesOutput, "data/csv_panama_papers.2018-02-14/nodes.csv");
+        CommonUtils.writeStringToFile(nodesOutput, "../Data/csv_panama_papers.2018-02-14/nodes.csv");
         System.out.println("================ \n Phase 2 Completed.\n================");
         
     }
@@ -260,7 +261,7 @@ public class DatasetCreator {
                 mergeOutput += currType + "," + csvLine.toString();
             }
 
-            CommonUtils.writeStringToFile(mergeOutput, "data/csv_panama_papers.2018-02-14/nodesMerged.csv");
+            CommonUtils.writeStringToFile(mergeOutput, "../Data/csv_panama_papers.2018-02-14/nodesMerged.csv");
         }
     }
 
@@ -272,15 +273,13 @@ public class DatasetCreator {
         Collections.shuffle(lines);
 
         edges.setParsedLines(lines);
-        edges.toFile("data/csv_panama_papers.2018-02-14/shuffledEdges.csv");
+        edges.toFile("../Data/csv_panama_papers.2018-02-14/shuffledEdges.csv");
     }
 
     public static void main(String[] args) throws IOException, FileNotFoundException, CloneNotSupportedException {
-        //createDatasetSampling();
-        //createDatasetPaths();
-        //shuffleCSV();
-        //mergeNodes();
-        //createDatasetPaths();
+        createDatasetSimple();
+        createDatasetSampling();
+        createDatasetPaths();
     }
 
 }
