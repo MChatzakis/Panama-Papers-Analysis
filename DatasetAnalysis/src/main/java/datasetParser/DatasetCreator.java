@@ -14,7 +14,7 @@ import java.util.Set;
 import utils.CommonUtils;
 
 /**
- * This class contains all methods to apply for dataset pre-prosessing (sampling, simple, reconstruction) and some other 
+ * This class contains all methods to apply for dataset pre-processing (sampling, simple, reconstruction) and some other 
  * utility functions.
  * 
  * @author Manos Chatzakis (chatzakis@ics.forth.gr)
