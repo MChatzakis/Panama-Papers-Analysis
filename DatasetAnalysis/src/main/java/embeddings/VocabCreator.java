@@ -13,6 +13,8 @@ import java.util.Map;
  * This class contains method to create a triple-like corpus from the Fraud Detection graph.
  * @author Manos Chatzakis (chatzakis@ics.forth.gr)
  * @author Eva Chamilaki (evacham7@ics.forth.gr)
+ * 
+ * IMPORTANT NOTE: The code for word2vec training is located @ https://github.com/MChatzakis/RDFsim/blob/main/RDFsim/src/main/java/scripts/DatasetCreator.java
  */
 public class VocabCreator {
 

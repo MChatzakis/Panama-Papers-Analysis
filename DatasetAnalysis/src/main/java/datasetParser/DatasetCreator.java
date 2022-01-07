@@ -120,7 +120,7 @@ public class DatasetCreator {
 
         int min = 0;
         int max = edges.getParsedLines().size();
-        int count = 4000;
+        int count = 4;
 
         int[] randRows = CommonUtils.generateRandomNums(count, min, max);
 
@@ -178,8 +178,8 @@ public class DatasetCreator {
         edges.parse();
         String output = edges.getHeader().toString();
 
-        //int startingNode = 11000007;
-        int startingNode = 10071302;
+        int startingNode = 11000007;
+        //int startingNode = 10071302;
 
         Set<Integer> nodeIDs = new HashSet<>();
 
@@ -277,9 +277,9 @@ public class DatasetCreator {
     }
 
     public static void main(String[] args) throws IOException, FileNotFoundException, CloneNotSupportedException {
-        createDatasetSimple();
+        //createDatasetSimple();
         createDatasetSampling();
-        createDatasetPaths();
+        //createDatasetPaths();
     }
 
 }
