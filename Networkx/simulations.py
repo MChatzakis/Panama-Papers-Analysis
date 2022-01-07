@@ -160,11 +160,11 @@ def sort_dict_by_value(dict):
 def main():
     create_graph_from_dataset()
 
-    #run_pagerank()
-    #run_eigenvector_centrality()
-    #run_degree_centrality()
-    #run_clustering()
-    show_graph()
+    run_pagerank()
+    run_eigenvector_centrality()
+    run_degree_centrality()
+    run_clustering()
+    #show_graph()
 
 
 if __name__ == "__main__":
